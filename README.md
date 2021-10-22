@@ -8,3 +8,5 @@ Currently it only supports 2 layouts (the ones I use)
 
     - US ALT INT
     - IT
+    - ES
+    - FR

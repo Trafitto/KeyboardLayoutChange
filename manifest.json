@@ -21,6 +21,13 @@
             "name": "kit",
             "description": "Switch to IT keyboard layout",
             "default_value": "kit"
+          },
+        {
+            "id": "kes",
+            "type": "keyword",
+            "name": "kes",
+            "description": "Switch to ES keyboard layout",
+            "default_value": "kit"
           }
       ]
   }
