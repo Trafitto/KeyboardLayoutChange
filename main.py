@@ -18,11 +18,13 @@ class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
         query = event.get_query().strip()
         if query == extension.preferences['kus']:
-            subprocess.Popen(['setxkbmap', 'us' , '-variant', 'alt-intl'])
+            subprocess.Popen(['setxkbmap', 'us', '-variant', 'alt-intl'])
         elif query == extension.preferences['kit']:
             subprocess.Popen(['setxkbmap', 'it'])
         elif query == extension.preferences['kes']:
             subprocess.Popen(['setxkbmap', 'es'])
+        elif query == extension.preferences['kfr']:
+            subprocess.Popen(['setxkbmap', 'fr'])
         return HideWindowAction()
         
 
