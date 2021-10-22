@@ -27,14 +27,14 @@
       "type": "keyword",
       "name": "kes",
       "description": "Switch to ES keyboard layout",
-      "default_value": "kit"
+      "default_value": "kes"
     },
     {
       "id": "kfr",
       "type": "keyword",
       "name": "kfr",
       "description": "Switch to FR keyboard layout",
-      "default_value": "kit"
+      "default_value": "kfr"
     }
   ]
 }
