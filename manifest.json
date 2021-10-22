@@ -1,0 +1,26 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "KeyboardLayoutChange",
+    "description": "Switch keyboard layout",
+    "developer_name": "Trafitto",
+    "icon": "images/icon.png",
+    "options": {
+      "query_debounce": 0.1
+    },
+    "preferences": [
+        {
+          "id": "kus",
+          "type": "keyword",
+          "name": "kus",
+          "description": "Switch to US ALT INT keyboard layout",
+          "default_value": "kus"
+        },
+        {
+            "id": "kit",
+            "type": "keyword",
+            "name": "kit",
+            "description": "Switch to IT keyboard layout",
+            "default_value": "kit"
+          }
+      ]
+  }
