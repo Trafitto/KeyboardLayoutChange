@@ -1,33 +1,47 @@
 {
-    "required_api_version": "^2.0.0",
-    "name": "KeyboardLayoutChange",
-    "description": "Switch keyboard layout",
-    "developer_name": "Trafitto",
-    "icon": "images/icon.png",
-    "options": {
-      "query_debounce": 0.1
+  "required_api_version": "^2.0.0",
+  "name": "KeyboardLayoutChange",
+  "description": "Switch keyboard layout",
+  "developer_name": "Trafitto",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kus",
+      "type": "keyword",
+      "name": "kus",
+      "description": "Switch to US ALT INT keyboard layout",
+      "default_value": "kus"
     },
-    "preferences": [
-        {
-          "id": "kus",
-          "type": "keyword",
-          "name": "kus",
-          "description": "Switch to US ALT INT keyboard layout",
-          "default_value": "kus"
-        },
-        {
-            "id": "kit",
-            "type": "keyword",
-            "name": "kit",
-            "description": "Switch to IT keyboard layout",
-            "default_value": "kit"
-          },
-        {
-            "id": "kes",
-            "type": "keyword",
-            "name": "kes",
-            "description": "Switch to ES keyboard layout",
-            "default_value": "kit"
-          }
-      ]
-  }
+    {
+      "id": "kit",
+      "type": "keyword",
+      "name": "kit",
+      "description": "Switch to IT keyboard layout",
+      "default_value": "kit"
+    },
+    {
+      "id": "kes",
+      "type": "keyword",
+      "name": "kes",
+      "description": "Switch to ES keyboard layout",
+      "default_value": "kes"
+    },
+    {
+      "id": "kfr",
+      "type": "keyword",
+      "name": "kfr",
+      "description": "Switch to FR keyboard layout",
+      "default_value": "kfr"
+    },
+    {
+      "id": "kpl",
+      "type": "keyword",
+      "name": "kpl",
+      "description": "Switch to PL keyboard layout",
+      "default_value": "kpl"
+    }
+  ]
+}
