@@ -10,3 +10,4 @@ Currently it only supports 2 layouts (the ones I use)
     - IT
     - ES
     - FR
+    - PL
