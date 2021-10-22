@@ -1,16 +1,9 @@
 from ulauncher.api.client.Extension import Extension
 from ulauncher.api.client.EventListener import EventListener
-from ulauncher.api.shared.event import KeywordQueryEvent, ItemEnterEvent
-from ulauncher.api.shared.item.ExtensionResultItem import ExtensionResultItem
+from ulauncher.api.shared.event import KeywordQueryEvent
 from ulauncher.api.shared.action.HideWindowAction import HideWindowAction
 
 import subprocess
-import logging
-logger = logging.getLogger(__name__)
-
-# setxkbmap us -variant alt-intl
-# subprocess.Popen(['setxkbmap', 'us' , '-variant', 'alt-intl'])
-
 
 
 class KeyboardLayoutChange(Extension):
