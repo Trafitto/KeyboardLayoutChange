@@ -23,10 +23,10 @@ class KeyboardLayoutChange(Extension):
 class KeywordQueryEventListener(EventListener):
 
     def on_event(self, event, extension):
-        query = event.query.strip()
-        if query == 'kus':
+        query = event.get_query().strip()
+        if query == extension.preferences['kus']:
             subprocess.Popen(['setxkbmap', 'us' , '-variant', 'alt-intl'])
-        elif query == 'kit':
+        elif query == extension.preferences['kit']:
             subprocess.Popen(['setxkbmap', 'it'])
         return HideWindowAction()
         
