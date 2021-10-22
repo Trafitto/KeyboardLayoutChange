@@ -35,6 +35,13 @@
       "name": "kfr",
       "description": "Switch to FR keyboard layout",
       "default_value": "kfr"
+    },
+    {
+      "id": "kpl",
+      "type": "keyword",
+      "name": "kpl",
+      "description": "Switch to PL keyboard layout",
+      "default_value": "kpl"
     }
   ]
 }
