@@ -43,14 +43,14 @@
       "description": "Switch to PL keyboard layout",
       "default_value": "kpl"
     },
-        {
+    {
       "id": "kdha",
       "type": "keyword",
       "name": "kdha",
       "description": "Switch to US Colemak-DH ansi keyboard layout",
       "default_value": "kdha"
     },
-        {
+    {
       "id": "kdhi",
       "type": "keyword",
       "name": "kdhi",
