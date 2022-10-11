@@ -32,7 +32,7 @@ class KeywordQueryEventListener(EventListener):
         elif query == extension.preferences['kdha']:
             subprocess.Popen(['setxkbmap', 'us', '-variant', 'colemak_dh'])
         elif query == extension.preferences['kdhi']:
-            subprocess.Popen(['setxkbmap', 'us', '-variant', 'colemak_dh_iso'])  
+            subprocess.Popen(['setxkbmap', 'us', '-variant', 'colemak_dh_iso'])
         return HideWindowAction()
         
 
