@@ -56,6 +56,13 @@
       "name": "kdhi",
       "description": "Switch to US Colemak-DH iso keyboard layout",
       "default_value": "kdhi"
+    },
+    {
+      "id": "ch",
+      "type": "keyword",
+      "name": "ch",
+      "description": "Switch to ch iso keyboard layout",
+      "default_value": "ch"
     }
   ]
 }
