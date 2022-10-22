@@ -58,6 +58,40 @@
       "default_value": "kdhi"
     },
     {
+      "id": "kja",
+      "type": "keyword",
+      "name": "kja",
+      "description": "Switch to Japanese iso keyboard layout",
+      "default_value": "kja"
+    },
+    {
+      "id": "khe",
+      "type": "keyword",
+      "name": "khe",
+      "description": "Switch to Hebrew iso keyboard layout",
+      "default_value": "khe"
+    },
+    {
+      "id": "kru",
+      "type": "keyword",
+      "name": "kru",
+      "description": "Switch to Russian iso keyboard layout",
+      "default_value": "kru"
+    },
+    {
+      "id": "ksv",
+      "type": "keyword",
+      "name": "ksv",
+      "description": "Switch to Swedish iso keyboard layout",
+      "default_value": "ksv"
+    },
+    {
+      "id": "ksl",
+      "type": "keyword",
+      "name": "ksl",
+      "description": "Switch to Slovenian iso keyboard layout",
+      "default_value": "ksl"
+      },{
       "id": "ch",
       "type": "keyword",
       "name": "ch",

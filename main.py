@@ -33,6 +33,16 @@ class KeywordQueryEventListener(EventListener):
             subprocess.Popen(['setxkbmap', 'us', '-variant', 'colemak_dh'])
         elif query == extension.preferences['kdhi']:
             subprocess.Popen(['setxkbmap', 'us', '-variant', 'colemak_dh_iso'])
+        elif query == extension.preferences['ja']:
+            subprocess.Popen(['setxkbmap', 'ja'])
+        elif query == extension.preferences['he']:
+            subprocess.Popen(['setxkbmap', 'he'])
+        elif query == extension.preferences['ru']:
+            subprocess.Popen(['setxkbmap', 'ru'])
+        elif query == extension.preferences['sv']:
+            subprocess.Popen(['setxkbmap', 'sv'])
+        elif query == extension.preferences['sl']:
+            subprocess.Popen(['setxkbmap', 'sl'])
         elif query == extension.preferences['ch']:
             subprocess.Popen(['setxkbmap', 'ch'])
         return HideWindowAction()
