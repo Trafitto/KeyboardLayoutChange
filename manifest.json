@@ -91,6 +91,12 @@
       "name": "ksl",
       "description": "Switch to Slovenian iso keyboard layout",
       "default_value": "ksl"
+      },{
+      "id": "ch",
+      "type": "keyword",
+      "name": "ch",
+      "description": "Switch to ch iso keyboard layout",
+      "default_value": "ch"
     }
   ]
 }
