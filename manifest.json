@@ -56,6 +56,41 @@
       "name": "kdhi",
       "description": "Switch to US Colemak-DH iso keyboard layout",
       "default_value": "kdhi"
+    },
+    {
+      "id": "kja",
+      "type": "keyword",
+      "name": "kja",
+      "description": "Switch to Japanese iso keyboard layout",
+      "default_value": "kja"
+    },
+    {
+      "id": "khe",
+      "type": "keyword",
+      "name": "khe",
+      "description": "Switch to Hebrew iso keyboard layout",
+      "default_value": "khe"
+    },
+    {
+      "id": "kru",
+      "type": "keyword",
+      "name": "kru",
+      "description": "Switch to Russian iso keyboard layout",
+      "default_value": "kru"
+    },
+    {
+      "id": "ksv",
+      "type": "keyword",
+      "name": "ksv",
+      "description": "Switch to Swedish iso keyboard layout",
+      "default_value": "ksv"
+    },
+    {
+      "id": "khr",
+      "type": "keyword",
+      "name": "khr",
+      "description": "Switch to Slovenian iso keyboard layout",
+      "default_value": "khr"
     }
   ]
 }
