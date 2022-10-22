@@ -86,11 +86,11 @@
       "default_value": "ksv"
     },
     {
-      "id": "khr",
+      "id": "ksl",
       "type": "keyword",
-      "name": "khr",
+      "name": "ksl",
       "description": "Switch to Slovenian iso keyboard layout",
-      "default_value": "khr"
+      "default_value": "ksl"
     }
   ]
 }
