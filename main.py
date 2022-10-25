@@ -45,6 +45,14 @@ class KeywordQueryEventListener(EventListener):
             subprocess.Popen(['setxkbmap', 'sl'])
         elif query == extension.preferences['ch']:
             subprocess.Popen(['setxkbmap', 'ch'])
+        elif query == extension.preferences['sq']:
+            subprocess.Popen(['setxkbmap', 'sq'])
+        elif query == extension.preferences['be']:
+            subprocess.Popen(['setxkbmap', 'be'])
+        elif query == extension.preferences['da']:
+            subprocess.Popen(['setxkbmap', 'da'])
+        elif query == extension.preferences['nl']:
+            subprocess.Popen(['setxkbmap', 'nl'])
         return HideWindowAction()
         
 
