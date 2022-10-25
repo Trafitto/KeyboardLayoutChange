@@ -91,31 +91,36 @@
       "name": "ksl",
       "description": "Switch to Slovenian iso keyboard layout",
       "default_value": "ksl"
-      },{
+    },
+    {
       "id": "ch",
       "type": "keyword",
       "name": "ch",
       "description": "Switch to ch iso keyboard layout",
       "default_value": "ch"
-    },{
+    },
+    {
       "id": "sq",
       "type": "keyword",
       "name": "sq",
       "description": "Switch to Albanian iso keyboard layout",
       "default_value": "sq"
-    },{
+    },
+    {
       "id": "be",
       "type": "keyword",
       "name": "be",
       "description": "Switch to Belarus iso keyboard layout",
       "default_value": "be"
-    },{
+    },
+    {
       "id": "da",
       "type": "keyword",
       "name": "da",
       "description": "Switch to Danish iso keyboard layout",
       "default_value": "da"
-    },{
+    },
+    {
       "id": "nl",
       "type": "keyword",
       "name": "nl",
