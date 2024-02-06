@@ -53,8 +53,10 @@ class KeywordQueryEventListener(EventListener):
             subprocess.Popen(['setxkbmap', 'da'])
         elif query == extension.preferences['nl']:
             subprocess.Popen(['setxkbmap', 'nl'])
+        elif query == extension.preferences['br']:
+            subprocess.Popen(['setxkbmap', 'br'])
         return HideWindowAction()
-        
+
 
 if __name__ == '__main__':
     KeyboardLayoutChange().run()
