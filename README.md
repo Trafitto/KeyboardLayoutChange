@@ -6,7 +6,7 @@ Currently it only supports 2 layouts (the ones I use)
 
 #### Layout supported
 
-- US Qwerty
+    - US Qwerty
     - US ALT INT
     - US Colemak-DH
     - IT
