@@ -126,6 +126,20 @@
       "name": "nl",
       "description": "Switch to Dutch iso keyboard layout",
       "default_value": "nl"
-    }
+    },
+    {
+      "id": "us",
+      "type": "keyword",
+      "name": "us",
+      "description": "Switch to Qwerty US iso keyboard layout",
+      "default_value": "us"
+    },
+    {
+      "id": "kbr",
+      "type": "keyword",
+      "name": "kbr",
+      "description": "Switch to Qwerty Brazillian iso keyboard layout",
+      "default_value": "kbr"
+    },
   ]
 }
