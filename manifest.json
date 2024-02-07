@@ -128,18 +128,18 @@
       "default_value": "nl"
     },
     {
-      "id": "usa",
+      "id": "kusa",
       "type": "keyword",
-      "name": "usa",
+      "name": "kusa",
       "description": "Switch to Qwerty US iso keyboard layout",
-      "default_value": "usa"
+      "default_value": "kusa"
     },
     {
-      "id": "br",
+      "id": "kbr",
       "type": "keyword",
-      "name": "br",
+      "name": "kbr",
       "description": "Switch to Qwerty Brazillian iso keyboard layout",
-      "default_value": "br"
+      "default_value": "kbr"
     }
   ]
 }
