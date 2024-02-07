@@ -96,7 +96,7 @@
       "id": "ch",
       "type": "keyword",
       "name": "ch",
-      "description": "Switch to ch iso keyboard layout",
+      "description": "Switch to Switzerland iso keyboard layout",
       "default_value": "ch"
     },
     {
@@ -126,6 +126,20 @@
       "name": "nl",
       "description": "Switch to Dutch iso keyboard layout",
       "default_value": "nl"
+    },
+    {
+      "id": "kusa",
+      "type": "keyword",
+      "name": "kusa",
+      "description": "Switch to Qwerty US iso keyboard layout",
+      "default_value": "kusa"
+    },
+    {
+      "id": "kbr",
+      "type": "keyword",
+      "name": "kbr",
+      "description": "Switch to Qwerty Brazillian iso keyboard layout",
+      "default_value": "kbr"
     }
   ]
 }

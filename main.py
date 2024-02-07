@@ -19,6 +19,8 @@ class KeywordQueryEventListener(EventListener):
         query = event.get_query().strip()
         if query == extension.preferences['kus']:
             subprocess.Popen(['setxkbmap', 'us', '-variant', 'alt-intl'])
+        if query == extension.preferences['kusa']:
+            subprocess.Popen(['setxkbmap', 'us'])
         elif query == extension.preferences['kit']:
             subprocess.Popen(['setxkbmap', 'it'])
         elif query == extension.preferences['kes']:
@@ -53,8 +55,10 @@ class KeywordQueryEventListener(EventListener):
             subprocess.Popen(['setxkbmap', 'da'])
         elif query == extension.preferences['nl']:
             subprocess.Popen(['setxkbmap', 'nl'])
+        elif query == extension.preferences['kbr']:
+            subprocess.Popen(['setxkbmap', 'br'])
         return HideWindowAction()
-        
+
 
 if __name__ == '__main__':
     KeyboardLayoutChange().run()
