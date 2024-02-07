@@ -19,8 +19,8 @@ class KeywordQueryEventListener(EventListener):
         query = event.get_query().strip()
         if query == extension.preferences['kus']:
             subprocess.Popen(['setxkbmap', 'us', '-variant', 'alt-intl'])
-        if query == extension.preferences['us']:
-            subprocess.Popen(['setxkbmap', 'us'])
+        if query == extension.preferences['usa']:
+            subprocess.Popen(['setxkbmap', 'usa'])
         elif query == extension.preferences['kit']:
             subprocess.Popen(['setxkbmap', 'it'])
         elif query == extension.preferences['kes']:

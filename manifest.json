@@ -128,11 +128,11 @@
       "default_value": "nl"
     },
     {
-      "id": "us",
+      "id": "usa",
       "type": "keyword",
-      "name": "us",
+      "name": "usa",
       "description": "Switch to Qwerty US iso keyboard layout",
-      "default_value": "us"
+      "default_value": "usa"
     },
     {
       "id": "kbr",
@@ -140,6 +140,6 @@
       "name": "kbr",
       "description": "Switch to Qwerty Brazillian iso keyboard layout",
       "default_value": "kbr"
-    },
+    }
   ]
 }
