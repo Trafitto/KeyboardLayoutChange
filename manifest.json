@@ -135,11 +135,11 @@
       "default_value": "usa"
     },
     {
-      "id": "kbr",
+      "id": "br",
       "type": "keyword",
-      "name": "kbr",
+      "name": "br",
       "description": "Switch to Qwerty Brazillian iso keyboard layout",
-      "default_value": "kbr"
+      "default_value": "br"
     }
   ]
 }
