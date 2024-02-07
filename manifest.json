@@ -96,7 +96,7 @@
       "id": "ch",
       "type": "keyword",
       "name": "ch",
-      "description": "Switch to ch iso keyboard layout",
+      "description": "Switch to Switzerland iso keyboard layout",
       "default_value": "ch"
     },
     {

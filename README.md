@@ -15,3 +15,13 @@ Currently it only supports 2 layouts (the ones I use)
     - PL
     - PT-BR
     - DE
+    - JP 
+    - HEB
+    - RU
+    - SE 
+    - SLV
+    - CH 
+    - ALB
+    - BLR 
+    - DK
+    - NL
